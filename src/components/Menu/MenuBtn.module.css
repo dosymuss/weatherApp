@@ -1,0 +1,59 @@
+.menuBtn {
+    width: 70px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contentDiv {
+    width: 400px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 57.6px 1fr 1fr 57.6px;
+
+}
+
+.itemOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: black;
+}
+
+.itemOne button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.itemTwo {
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+.detailsTitle {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.itemThree {
+    border-top: 1px solid black;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.itemFour {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

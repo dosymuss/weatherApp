@@ -1,0 +1,57 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    padding: 70px 100px;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "content content"
+        "bottom bottom"
+    ;
+    grid-template-rows: 100px 1fr 100px;
+    background-color: rgba(128, 128, 128, 0.741);
+    /* background-image: url("../image/SunnyWeatherImage.svg"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    grid-area: header;
+    align-items: start;
+    justify-items: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menuBtnDiv {
+    justify-self: end;
+}
+
+.contentDiv {
+    padding: 0 0 20px 20px;
+    grid-area: content;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.botommDiv {
+    grid-area: bottom;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    justify-items: start;
+}
+
+.cityTextDiv {
+    justify-self: end;
+}
+
+.loader {
+    background: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}

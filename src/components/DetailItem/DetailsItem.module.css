@@ -1,0 +1,13 @@
+p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #917D7D;
+    margin: 0;
+    margin-bottom: 5px;
+}

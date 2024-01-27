@@ -1,0 +1,8 @@
+.wrap{
+    background: #1E1E1E;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
